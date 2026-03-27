@@ -9,8 +9,9 @@ services:
     expose:
       - '1337'
     environment:
-      HOST: https://taxai.afintrix.com
+      HOST: 0.0.0.0
       PORT: 1337
+      URL: https://taxai.afintrix.com
       APP_KEYS: 'myKeyA1b2C3d4,myKeyE5f6G7h8'
       JWT_SECRET: 'myJwtSecret1234567890'
       DB: postgres
