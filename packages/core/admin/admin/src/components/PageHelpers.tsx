@@ -255,7 +255,7 @@ export interface TitleProps {
  */
 const Title = ({ children: title }: TitleProps) => {
   React.useEffect(() => {
-    document.title = `${title} | Strapi`;
+    document.title = `${title} | Afintrix`;
   }, [title]);
 
   return null;

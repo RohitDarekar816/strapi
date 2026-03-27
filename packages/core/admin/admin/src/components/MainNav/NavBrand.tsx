@@ -36,7 +36,7 @@ export const NavBrand = () => {
             <span>
               {formatMessage({
                 id: 'app.components.LeftMenu.navbrand.title',
-                defaultMessage: 'Strapi Dashboard',
+                defaultMessage: 'Afintrix Dashboard',
               })}
             </span>
             <span>

@@ -1,0 +1,14 @@
+.git
+.github/workflows
+**/node_modules
+**/.tmp
+**/.cache
+**/dist
+**/build
+**/.env
+**/.env.*
+!**/.env.example
+.nx
+docs
+tests
+*.log
