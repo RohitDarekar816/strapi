@@ -9,7 +9,7 @@ services:
     expose:
       - '1337'
     environment:
-      HOST: 0.0.0.0
+      HOST: https://taxai.afintrix.com
       PORT: 1337
       APP_KEYS: 'myKeyA1b2C3d4,myKeyE5f6G7h8'
       JWT_SECRET: 'myJwtSecret1234567890'
