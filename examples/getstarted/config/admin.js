@@ -33,6 +33,11 @@ module.exports = ({ env }) => ({
     nps: env.bool('FLAG_NPS', true),
     promoteEE: env.bool('FLAG_PROMOTE_EE', true),
   },
+  vite: {
+    server: {
+      allowedHosts: true,
+    },
+  },
   preview: {
     enabled: env.bool('PREVIEW_ENABLED', true),
     config: {

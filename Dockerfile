@@ -25,9 +25,7 @@ RUN yarn install
 # Build all monorepo packages
 RUN yarn build
 
-# Build the Strapi admin panel for production
 WORKDIR /app/examples/getstarted
-RUN yarn build
 
 EXPOSE 1337
 
