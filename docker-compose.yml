@@ -11,7 +11,7 @@ services:
     environment:
       HOST: 0.0.0.0
       PORT: 1337
-      URL: https://taxai.afintrix.com
+      URL: https://cms.afintrix.com
       APP_KEYS: 'myKeyA1b2C3d4,myKeyE5f6G7h8'
       JWT_SECRET: 'myJwtSecret1234567890'
       DB: postgres
