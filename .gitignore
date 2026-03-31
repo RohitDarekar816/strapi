@@ -157,6 +157,7 @@ tests/cli/.env
 # AI tools
 ############################
 CLAUDE.local.md
+.claude
 
 ############################
 # Strapi
@@ -167,3 +168,4 @@ examples/**/types/generated
 
 # Ignore yarn.lock inside templates
 templates/yarn.lock
+config.bat
